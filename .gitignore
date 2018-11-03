@@ -1,0 +1,19 @@
+#  Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binary
+*.test
+
+# Go coverage tool
+*.out
+
+# Go dependencies
+/vendor/
+/Godeps/
+
+# IDE
+.idea*
